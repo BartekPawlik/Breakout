@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+.title{
+    margin-top: 30px;
+}
+
+.grid{
+    display: block;
+    position: relative;
+    margin-top: 100px;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: violet;
+   
+}
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(144, 35, 207);
+   
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+    position: absolute;
+}
+.start{
+    background-color: rgb(20, 155, 38);
+    border: none;
+    padding: 5px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+.start:hover{
+    color: black;
+}
+
+.restart{
+    background-color: rgb(190, 46, 10);
+    border: none;
+    padding: 5px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
